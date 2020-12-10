@@ -33,8 +33,7 @@ Collection of we scrapping apis to scrape a given amazon webpage url.
         "created_at": "2020-12-10T11:57:48.696Z"
     }
 ]```
-
-![alt text](/Users/shivamsingh/Desktop/GET.png?raw=true "GET")
+![](images/GET.png)
 
 2) URL - http://localhost:8080/scrape_amazon <br />
    Method - POST <br />
@@ -58,7 +57,7 @@ Collection of we scrapping apis to scrape a given amazon webpage url.
     "created_at": "2020-12-10T12:15:43Z"
     }
     ```
-![alt text](/Users/shivamsingh/Desktop/POST.png?raw=true "GET")
+![](images/POST.png)
 
 #### Mongodb Atlas is used as document store. Please change the `ApplyURI` in the code.
 

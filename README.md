@@ -1,12 +1,12 @@
 # Amazon-Web-Scrapper---GoLang
 Collection of we scrapping apis to scrape a given `amazon.com` webpage url.
 
-##Installation:
+## Installation:
 
 1) Git clone.
 2) docker-compose up --build -d
 
-##API Endpoints
+## API Endpoints
 1) URL - http://localhost:8080/all <br />
    Method - GET <br />
    Discription - To fetch all the scraped pages JSON array <br />

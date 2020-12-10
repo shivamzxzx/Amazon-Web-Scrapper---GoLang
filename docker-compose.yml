@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: go_app:latest
+    container_name: go_app
+    restart: always
+    command: go run final.go
+    ports:
+      - "8080:8080"

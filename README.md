@@ -4,7 +4,8 @@ Collection of we scrapping apis to scrape a given `amazon.com` webpage url.
 ## Installation:
 
 1) Git clone.
-2) docker-compose up --build -d
+2) cd  Amazon-Web-Scrapper---GoLang
+3) docker-compose up --build -d
 
 ## API Endpoints
 1) URL - http://localhost:8080/all <br />

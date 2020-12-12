@@ -61,6 +61,7 @@ Collection of we scrapping apis to scrape a given `amazon.com` webpage url.
 ![](images/POST.png)
 
 #### Mongodb Atlas is used as document store. Please change the `ApplyURI` in the code.
+![](images/ATLAS.png)
 
 ### References:
 

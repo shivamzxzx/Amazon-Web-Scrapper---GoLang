@@ -1,6 +1,7 @@
 version: '3'
+
 services:
-  web:
+  web1:
     build: .
     image: go_app:latest
     container_name: go_app
@@ -8,3 +9,10 @@ services:
     command: go run final.go
     ports:
       - "8080:8080"
+  web2:
+    image: go_app:latest
+    container_name: go_app_save
+    restart: always
+    command: go run save.go
+    ports:
+      - "8081:8081"

@@ -146,7 +146,7 @@ func scrapelink(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(result_one)
 }
 
-func GetPeopleEndpoint(response http.ResponseWriter, request *http.Request) {
+func GetAllScrapedData(response http.ResponseWriter, request *http.Request) {
 
     // Fetching all the objects created and return the json object
     ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
@@ -193,6 +193,6 @@ func main() {
 	// Initializing the router for our api endpoints
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/scrape_amazon", scrapelink).Methods("POST")
-	router.HandleFunc("/all", GetPeopleEndpoint).Methods("GET")
+	router.HandleFunc("/all", GetAllScrapedData).Methods("GET")
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
